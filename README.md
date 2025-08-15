@@ -1,13 +1,13 @@
-# 🌍 Çok Dilli Ses Çevirici
+# � Metin Seslendirici
 
-Türkçe, İngilizce ve Arapça arasında ses dosyalarını ve metinleri çeviren Streamlit uygulaması.
+OpenAI TTS API kullanarak metinleri ve ses dosyalarını seslendiren Streamlit uygulaması.
 
 ## 🚀 Özellikler
 
-- **Ses Dosyası Çeviri**: MP3, WAV, MP4, M4A, WebM formatlarını destekler
-- **Metin Çeviri**: Doğrudan metin girişi ile çeviri
-- **Ses Sentezi**: Çevrilmiş metinleri seslendirme
-- **Çoklu Dil Desteği**: Türkçe ↔ İngilizce ↔ Arapça
+- **Ses Dosyası Seslendirme**: MP3, WAV, MP4, M4A, WebM formatlarını destekler
+- **Metin Seslendirme**: Doğrudan metin girişi ile seslendirme
+- **Ses Tanıma**: Ses dosyalarını metne çevirme
+- **Çoklu Dil Desteği**: Türkçe, İngilizce, Arapça, Almanca, Fransızca, İspanyolca
 - **6 Farklı Ses Tonu**: alloy, echo, fable, onyx, nova, shimmer
 
 ## 🛠️ Kurulum
@@ -43,9 +43,9 @@ Uygulama http://localhost:8501 adresinde açılacaktır.
 
 ### Kullanım Adımları
 1. **OpenAI API anahtarınızı** sol menüden girin
-2. **Kaynak dil** ve **hedef dili** seçin
+2. **Seslendirme dili** seçin
 3. **Ses tonu** seçin
-4. **Ses Dosyası** veya **Metin** sekmesinden çeviri yapın
+4. **Ses Dosyası** veya **Metin** sekmesinden seslendirme yapın
 
 ## 📁 Proje Yapısı
 
@@ -62,7 +62,6 @@ zehrases/
 ### Kullanılan Teknolojiler
 - **Streamlit**: Web arayüzü
 - **OpenAI Whisper**: Ses tanıma
-- **OpenAI GPT-4o-mini**: Metin çevirisi
 - **OpenAI TTS**: Ses sentezi
 
 ### Desteklenen Formatlar
@@ -71,7 +70,6 @@ zehrases/
 
 ### Maliyet Bilgisi
 - Whisper: $0.006 / dakika
-- GPT-4o-mini: $0.00015 / 1K input token, $0.0006 / 1K output token
 - TTS: $0.015 / 1K karakter
 
 ## 🔒 Güvenlik
@@ -85,6 +83,9 @@ zehrases/
 - 🇹🇷 **Türkçe** (tr)
 - 🇺🇸 **İngilizce** (en)  
 - 🇸🇦 **Arapça** (ar)
+- 🇩🇪 **Almanca** (de)
+- 🇫🇷 **Fransızca** (fr)
+- 🇪🇸 **İspanyolca** (es)
 
 ## 📞 Destek
 
